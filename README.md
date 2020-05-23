@@ -28,8 +28,8 @@ PM> Install-Package DictionaryType
 
 #### Instructions
 
-1. Create a parent a dictionary item with it's children being the list items.
-2. Add the parent dictionary key name into the Parent Dictionary Key field in the Dictionary Property Editor.
+1. Create a parent dictionary item with it's children being the list items.
+2. Add the parent dictionary key name into the **Parent Dictionary Key** field in the Dictionary Property Editor.
 3. Add the created DataType into a DocumentType or MemberType and you'll have your child items as your choices in the list.
 
 #### Using the dictionary list for other implementation
