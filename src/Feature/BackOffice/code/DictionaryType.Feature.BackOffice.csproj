@@ -261,6 +261,7 @@
     <Content Include="App_Plugins\DictionaryType\views\checkboxlist.html" />
     <Content Include="App_Plugins\DictionaryType\views\dropdown.html" />
     <Content Include="App_Plugins\DictionaryType\views\radiobuttons.html" />
+    <Content Include="icon.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
