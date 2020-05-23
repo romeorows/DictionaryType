@@ -13,6 +13,7 @@
     <tags>umbraco, umbraco-cms</tags>
     <license type="expression">MIT</license>
     <repository type="git" url="https://github.com/romeorows/DictionaryType" />
+    <icon>images\icon.png</icon>
 	<dependencies>
       <dependency id="DictionaryType.Core" version="1.0.0" />
     </dependencies>
@@ -20,5 +21,6 @@
   <files>
     <file src="bin\DictionaryType.Feature.BackOffice.dll" target="lib\net472" />
     <file src="App_Plugins\DictionaryType\**\*.*" target="content\App_Plugins\DictionaryType" />
+    <file src="..\icon.png" target="images\" />
   </files>
 </package>
