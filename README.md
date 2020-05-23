@@ -1,4 +1,4 @@
-[![NuGet release](https://img.shields.io/nuget/v/DictionaryType.svg)](https://www.nuget.org/packages/DictionaryType) [![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/dictionarytype)
+[![NuGet release](https://img.shields.io/nuget/v/DictionaryType.svg)](https://www.nuget.org/packages/DictionaryType) [![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/dictionary-type)
 
 # Dictionary Type #
 
@@ -16,7 +16,7 @@ Umbraco DataType which values are based from **dictionary items**. An alternativ
 
 Install from the developer section in Umbraco or download from the link below
 
-> [https://our.umbraco.com/packages/backoffice-extensions/DictionaryType/](https://our.umbraco.com/packages/backoffice-extensions/DictionaryType/)
+> [https://our.umbraco.com/packages/backoffice-extensions/dictionary-type/](https://our.umbraco.com/packages/backoffice-extensions/dictionary-type/)
 
 ##### 2. NuGet package
 
@@ -28,11 +28,11 @@ PM> Install-Package DictionaryType
 
 #### Instructions
 
-1. Create a parent a dictionary item with it's children being the items on the list.
+1. Create a parent a dictionary item with it's children being the list items.
 2. Add the parent dictionary key name into the Parent Dictionary Key field in the Dictionary Property Editor.
 3. Add the created DataType into a DocumentType or MemberType and you'll have your child items as your choices in the list.
 
-#### Using the dictionary list in other implementation
+#### Using the dictionary list for other implementation
 
 ```c#
 using DictionaryType.Foundation.Core.Helpers;
@@ -65,3 +65,5 @@ public class YourClass
     }
 }
 ```
+
+<a target="_blank" href="https://icons8.com/icons/set/dictionary">Dictionary icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
