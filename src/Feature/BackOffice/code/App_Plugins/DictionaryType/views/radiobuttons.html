@@ -1,0 +1,15 @@
+﻿<div class="umb-property-editor umb-radiobuttons" ng-controller="dictionarytype.controller">
+    <ng-form name="radioButtonsFieldForm">
+
+        <ul class="unstyled">
+            <li ng-repeat="item in list">
+                <umb-radiobutton name="{{model.alias}}" value="{{item.Value}}" model="model.value" text="{{item.Value}}" required="model.validation.mandatory && model.value == ''"></umb-radiobutton>
+            </li>
+        </ul>
+
+        <div ng-messages="radioButtonsFieldForm[model.alias].$error" show-validation-on-submit>
+            <p class="help-inline" ng-message="required">{{mandatoryMessage}}</p>
+        </div>
+
+    </ng-form>
+</div>

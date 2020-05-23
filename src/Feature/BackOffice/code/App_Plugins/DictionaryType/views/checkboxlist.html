@@ -1,0 +1,7 @@
+﻿<div class="umb-property-editor umb-checkboxlist" ng-controller="dictionarytype.controller">
+    <ul class="unstyled">
+        <li ng-repeat="item in list">
+            <umb-checkbox name="{{::model.alias}}" value="{{::item.Value}}" model="item.Selected" text="{{::item.Value}}" on-change="checkBoxUpdate()" required="model.validation.mandatory && !model.value.length"></umb-checkbox>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,76 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "DictionaryType.Dropdown",
+      "name": "Dictionary Type - Dropdown",
+      "editor": {
+        "view": "~/App_Plugins/DictionaryType/views/dropdown.html",
+        "valueType": "STRING"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Parent Dictionary Key",
+            "description": "Parent Dictionary Key. The list will come from the children of the parent dictionary item",
+            "key": "parentDictionaryKey",
+            "view": "textstring",
+            "validation": [
+              {
+                "type": "Required"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "alias": "DictionaryType.CheckboxList",
+      "name": "Dictionary Type - CheckboxList",
+      "editor": {
+        "view": "~/App_Plugins/DictionaryType/views/checkboxlist.html",
+        "valueType": "JSON"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Parent Dictionary Key",
+            "description": "Parent Dictionary Key. The list will come from the children of the parent dictionary item",
+            "key": "parentDictionaryKey",
+            "view": "textstring",
+            "validation": [
+              {
+                "type": "Required"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "alias": "DictionaryType.RadioButtons",
+      "name": "Dictionary Type - RadioButtons",
+      "editor": {
+        "view": "~/App_Plugins/DictionaryType/views/radiobuttons.html",
+        "valueType": "STRING"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Parent Dictionary Key",
+            "description": "Parent Dictionary Key. The list will come from the children of the parent dictionary item",
+            "key": "parentDictionaryKey",
+            "view": "textstring",
+            "validation": [
+              {
+                "type": "Required"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  javascript: [
+    "~/App_Plugins/DictionaryType/js/dictionarytype.controller.js"
+  ]
+}

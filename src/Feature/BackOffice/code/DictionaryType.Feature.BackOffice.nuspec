@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>DictionaryType</id>
+    <version>1.0.0</version>
+    <authors>Romeo Cadaoas</authors>
+    <owners>Umbraco user</owners>
+    <projectUrl>https://github.com/romeorows/DictionaryType</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Umbraco DataType which values are based from dictionary items</description>
+    <releaseNotes><![CDATA[1.0.0 Initial release]]></releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>umbraco, umbraco-cms</tags>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/romeorows/DictionaryType" />
+	<dependencies>
+      <dependency id="DictionaryType.Core" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\DictionaryType.Feature.BackOffice.dll" target="lib\net472" />
+    <file src="App_Plugins\DictionaryType\**\*.*" target="content\App_Plugins\DictionaryType" />
+  </files>
+</package>
