@@ -20,7 +20,7 @@ Install from the developer section in Umbraco or download from the link below
 
 ##### 2. NuGet package
 
-Install from [NuGet](https://www.nuget.org/packages/UmbracoDictionaryPropertyEditor/) package manager or run the following command in Visual Studio package manage console:
+Install from [NuGet](https://www.nuget.org/packages/DictionaryType/) package manager or run the following command in Visual Studio package manage console:
 
 ```c
 PM> Install-Package DictionaryType
@@ -31,6 +31,12 @@ PM> Install-Package DictionaryType
 1. Create a parent dictionary item with it's children being the list items.
 2. Add the parent dictionary key name into the **Parent Dictionary Key** field in the Dictionary Property Editor.
 3. Add the created DataType into a DocumentType or MemberType and you'll have your child items as your choices in the list.
+
+<img src="docs/img/1Dictionary.png" width="400"  />
+<img src="docs/img/2DataType.png" width="400"  />
+<img src="docs/img/3DataType.png" width="400"  />
+<img src="docs/img/4DocumentType.png" width="400"  />
+<img src="docs/img/5Content.png" width="400"  />
 
 #### Using the dictionary list for other implementation
 
